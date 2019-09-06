@@ -7,6 +7,8 @@ var players = { // Detalles de cada player
 	}
 };
 
+alert("lol");
+
 players.left.vel=players.right.vel=0; //Inicializacion de la velocidad de cada player
 var bounces = []; //Array de pelotas
 var directionCollision = [true, false]; //Direccion de Y cuando hay una colision
