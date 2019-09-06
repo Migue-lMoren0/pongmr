@@ -5,9 +5,7 @@ var players = { // Detalles de cada player
 	right: {
 
 	}
-};
-
-alert("lol");
+}; 
 
 players.left.vel=players.right.vel=0; //Inicializacion de la velocidad de cada player
 var bounces = []; //Array de pelotas
@@ -138,3 +136,5 @@ function draw() { //Cambios constantes
 	}
 
 }
+
+//Ahora funciona con Github
